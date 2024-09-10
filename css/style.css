@@ -1,0 +1,108 @@
+
+
+.encabezado{
+    background-color: #37408b;
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.encabezado img{
+    height: 70px;
+    width: auto;
+}
+
+.menu{
+    line-height: 65px;
+    margin-right: 28px;
+}
+
+.menu a{
+    margin-left: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #528add;
+}
+
+.menu .btnc{
+    background-color: rgb(14, 36, 236);
+    padding: 12px;
+    color: rgb(148, 197, 219);
+    border-radius: 10px;
+}
+
+.carrucel-inner img{
+    height: 70vh;
+    width: 100%;
+}
+
+.tarjeta{
+    width: 1200px;
+    height: 450px;
+    background-color: rgb(46, 59, 95);
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+    border-radius: 20px;
+
+}
+
+.personaje h1{
+    text-align: center;
+    color: rgb(33, 131, 196);
+    font-size: 40px;
+}
+
+.personaje p{
+    line-height: 35px;
+    font-size: 18px;
+}
+
+#btn{
+    margin-top: 18px;
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
+    background: #2a2463;
+    color: white;
+    border: 2px dotted white;
+}
+
+section{
+    display: flex;
+    width: 1200px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: .5s ease;
+}
+
+section img:hover{
+    cursor: pointer;
+    width: 350px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.piepagina{
+    background-color: #37408b;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.piepagina img{
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
